@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&family=Reem+Kufi&display=swap');
+nav{
+    position: absolute;
+    right: 10px;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Reem Kufi', sans-serif; 
+    padding: 5px 15px;
+    color: #00a66e;
+}
+section{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+*{
+    margin: 0;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text h2{
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    text-align: center;
+}
+.section-text h1{
+    font-size: 70px;
+    font-family: 'Reem Kufi', sans-serif;    
+    font-weight: 600;
+    color: rgb(68, 255, 193);
+    text-align: center;
+}
+.section-text p{
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;    
+    font-weight: 200;
+    text-align: center;
+}
+.primary-text{
+    font-size: 40px;
+    font-family: 'Reem Kufi', sans-serif;    
+    color: white;
+    text-align: center;
+}
+
+.view{
+    height: 40px;
+    width: 90px;
+    border: 2px gray solid;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    
+}
+.view a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about img{
+    height: fit-content;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.about p{
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;    
+    text-align: center;
+    color: black;
+    width: 800px;
+    font-weight: 100;
+}
+.section-text >div{
+    position: relative;
+    left: 470px;
+    top: 80px;
+    animation: pop 2s ease-in-out infinite alternate;
+    
+}
+@keyframes pop {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+
+    }
+}
+.contact-container{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-container a{
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+.contact-container a:hover{
+    
+    color:  #1aba85;
+    transform: scale(1.1);
+}
+.contact-container h1{
+    color: white;
+    margin-top: 300px;
+}
+.down svg{
+    position: relative;
+    left: 590px;
+    top: -300px;
+    animation: pop 2s ease-in-out infinite alternate;
+}
+.up svg{
+    position: relative;
+    left: 590px;
+    top: -350px;
+    animation: pop 2s ease-in-out infinite alternate;
+}
+
+.up1{
+    position: absolute;
+    left: 1200px;
+    top: 1850px;
+    animation: pop 2s ease-in-out infinite alternate;
+
+}
+.down1{
+    position: absolute;
+    left: 1200px;
+    top: 1755px;
+    animation: pop 2s ease-in-out infinite alternate;
+
+}
+
+
+.project-container{
+    background-color: white;
+    padding-top: 30px;
+    height: 235vh;
+    width: 100%;
+}
+
+.project-container h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 70px;
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #00a66e;
+}
+
+.project-container img{
+    height: 200px;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.project-container img:hover{
+    transform: scale(1.1);
+}
+
+.web3 input{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: 3px #1aba85 solid;
+    color: #1aba85;
+    border-radius: 10px;
+
+}
+
+.p3{
+    width: 100%;
+    display: flex;
+}
+
+.p3 h2{
+    color: black;
+    font-size: 30px;
+    padding-left:20px;
+}
+
+.web3{
+    padding-left: 200px;
+}
+
+.web3 a{
+    padding-left: 50px;
+}
+
+.web4 input{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border: 3px #1aba85 solid;
+    color: #1aba85;
+    border-radius: 10px;
+
+}
+.p4{
+    width: 100%;
+    display: flex;
+}
+.web4{
+    padding-left: 200px;
+}
+.web4 a{
+    padding-left: 50px;
+}
+.p4 h2{
+    color: black;
+    font-size: 30px;
+    padding-left:20px;
+}
+
+
+
+.p1{
+    width: 100%;
+    display: flex;
+}
+.web1{
+    padding-left: 200px;
+}
+.text{
+    height: 150px;
+    width: 500px;
+    border: 1px black ;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.web1 div{
+    padding-left: 20px;
+}
+.p1 h2{
+    color: black;
+    font-size: 30px;
+    padding-left:20px;
+}
+.web1 input{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border: 3px #1aba85 solid;
+    color: #1aba85;
+    border-radius: 10px;
+
+}
+
+
+.p2{
+    width: 100%;
+    display: flex;
+}
+.web2{
+    padding-left: 200px;
+}
+.text2{
+    height: 150px;
+    width: 430px;
+    border: 1px black;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+.web2 div{
+    padding-left: 20px;
+}
+.p2 h2{
+    color: black;
+    font-size: 30px;
+    padding-left:20px;
+}
+
+.web2 input{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border: 3px #1aba85 solid;
+    color: #1aba85;
+    border-radius: 10px;
+
+}
+
+
+.p5{
+    width: 100%;
+    display: flex;
+}
+.web5{
+    padding-left: 200px;
+}
+
+.web5 a{
+    padding-left: 50px;
+}
+.p5 h2{
+    color: black;
+    font-size: 30px;
+    padding-left:20px;
+}
+
+.web5 input{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border: 3px #1aba85 solid;
+    color: #1aba85;
+    border-radius: 10px;
+
+}
